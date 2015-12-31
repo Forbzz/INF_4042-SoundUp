@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SoundUp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuration</string>
+
+
+    <string name="appname">SoundsUp</string>
+    <string name="startRecord">"Commencer l'enregistrement"</string>
+    <string name="pauseRcord">Enregistrement en pause</string>
+    <string name="stopRecord">"Arrêter l'enregistrement"</string>
+    <string name="startPlay">Jouer le son</string>
+    <string name="stopPlay">Arrêter le son</string>
+    <string name="showList">Affiche la liste</string>
+    <string name="title_activity_record_list">RecordList</string>
+    <string name="settings">Configuration</string>
+    <string name="action_search">Chercher</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_word">Ecrivez ici</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_main">Accueil</string>
+    <string name="instruction_word">Instructions</string>
+    <string name="instructions">"SoundUp est un enregistreur de son qui enregistre pendant que vous appuyez sur l'emprunte de pouce au milieu. Vous pouvez choisir entre le format .wav et .amr dans la fenetre de configuration. ENfin, vous pouvez écouter ou supprimer les enregistrements.
+Une carte SD est nécessaire"</string>
+    <string name="nosd">Pas de carte SD, veuillez en insèrer une</string>
+    <string name="registered">Sauvegardé avec succès</string>
+    <string name="unregistered">Echec de l\'enregistrement"</string>
+    <string name="deletetitle">Suppression</string>
+    <string name="deleteconf">Êtes vous sûr?</string>
+    <string name="faildeleting">Echec de la suppression</string>
+    <string name="deleting">Suppression...</string>
+
+<string name="title_activity_settings">Configuration</string>
+
+<!-- Strings related to Settings -->
+
+<!-- Example General settings -->
+<string name="pref_header_general">General</string>
+
+
+<string name="record_maxTime_default">0</string>
+
+<string name="record_type">Choix du format</string>
+
+<string-array name="record_type_list_name">
+    <item>amr</item>
+    <item>wav</item>
+</string-array>
+<string-array name="record_type_list_value">
+    <item>1</item>
+    <item>0</item>
+</string-array>
+</resources>
+

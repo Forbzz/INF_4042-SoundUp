@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/wallpaper2"
+    android:id="@+id/mediaplayer">
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/shareBtn"
+        android:typeface="serif"
+        android:background="@xml/pressedbuttonprofile"
+        android:layout_alignTop="@+id/showListBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/showListBtn"
+        android:typeface="serif"
+        android:background="@xml/pressedbuttonfile"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="164dp"
+        android:layout_height="218.5dp"
+        android:id="@+id/startRecordBtn"
+        android:typeface="serif"
+        android:background="@xml/pressedbutton"
+        android:layout_gravity="center"
+        android:nestedScrollingEnabled="false"
+        android:longClickable="true"
+        android:layout_above="@+id/shareBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showTimeTV"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textColor="#ffffc612"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopRecordBtn"
+        android:background="@xml/pressedbuttonfinish"
+        android:layout_above="@+id/startRecordBtn"
+        android:layout_alignRight="@+id/startRecordBtn"
+        android:layout_alignEnd="@+id/startRecordBtn" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/settingsBtn"
+        android:typeface="serif"
+        android:background="@xml/pressedbuttonsettings"
+        android:layout_below="@+id/startRecordBtn"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
